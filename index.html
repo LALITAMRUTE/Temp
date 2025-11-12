@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InternshipWala.com | Certificate Verification</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; /* Disable scrolling */
+      background: linear-gradient(135deg, #f2f7ff, #e3efff);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      width: 90vw;
+      height: 90vh;
+      max-width: 1100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 25px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .header h1 {
+      color: #0073e6;
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .header h2 {
+      color: #333;
+      margin: 4px 0 14px;
+      font-size: 1.25em;
+    }
+
+    .details {
+      text-align: center;
+      font-size: 1em;
+      color: #333;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .verified {
+      color: #1ca61c;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+ .certificate-box {
+  display: inline-block;
+  border: 2px solid #0073e6;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 90vw;   /* Fits within 90% of viewport width */
+  max-height: 90vh;  /* Fits within 90% of viewport height */
+}
+
+.certificate-box img {
+  display: block;
+  max-width: 100%;   /* Prevents overflow */
+  max-height: 100%;  /* Ensures full image visible */
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+}
+
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.9em;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>InternshipWala.com</h1>
+      <h2>Certificate Verification Page</h2>
+    </div>
+
+    <div class="details">
+      <p><b>Name:</b> Lalit Amrute</p>
+      <p><b>Father's Name:</b> Omprakash Amrute</p>
+      <p><b>Internship Title:</b> Industrial Automation using PLC</p>
+      <p><b>Duration:</b> 09-06-2025 to 06-07-2025 </p>
+      <p class="verified">✅ Verified by InternshipWala.com</p>
+    </div>
+
+    <div class="certificate-box">
+      <!-- Put your certificate image in same folder and name it certificate.jpg -->
+      <img src="./WhatsApp Image 2025-11-12 at 15.44.46_259f269b.jpg" alt="Verified Certificate">
+    </div>
+
+    <footer>© 2025 InternshipWala.com | Certificate Verification System</footer>
+  </div>
+</body>
+</html>
